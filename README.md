@@ -7,7 +7,7 @@ own. Length and width should be defined in the constructor of rectangle class.
 
 Area of Rectangle = Length * Width
 
-Area of Trapezium = ½ * (l + w) * h
+Area of Trapezium = 0.5 * (Length + Width) * h
 
 After creation of the class, define the relevant attributes. Define a function for area computation
 and then a function for displaying area. Incorporate your knowledge of class and objects here.
