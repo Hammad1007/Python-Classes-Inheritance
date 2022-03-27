@@ -1,5 +1,7 @@
 # Task 4
 # Inheritance and Classes
+
+// Base class or the parent class
 class Rectangle:
   Area = 0.00;
   def __init__(self, len, wid):
@@ -12,6 +14,7 @@ class Rectangle:
   def print_Area(self):
     print('The area is: ', self.Area);
 
+// Derived class or the child class
 class Trapezium(Rectangle):
   def __init__(self, len, wid, h):
     super().__init__(len, wid);   # constructor of Rectangle class
