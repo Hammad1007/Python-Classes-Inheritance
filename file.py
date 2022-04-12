@@ -26,12 +26,14 @@ class Trapezium(Rectangle):
   def print_Area(self):
     print("The area of trapezium is:", self.Area);      # function to print area
 
-# Rectangle class
+#-------------------------------------------------------------------------------------------
+# Main starts here
+# Parent class, Rectangle class
 r1 = Rectangle(10, 8);
 r1.find_Area();
 r1.print_Area();
 
-# Trapezium class
+# Child class, Trapezium class
 t1 = Trapezium(10, 8, 5);
 t1.find_Area();
 t1.print_Area();
