@@ -17,8 +17,8 @@ class Rectangle:
 // Child class
 class Trapezium(Rectangle):
   def __init__(self, len, wid, h):
-    super().__init__(len, wid);   # constructor of Rectangle class
-    self.h = h;                   # height of the trapezium
+    super().__init__(len, wid);                         # constructor of Rectangle class
+    self.h = h;                                         # height of the trapezium
 
   def find_Area(self):
     self.Area = 0.5 * (self.len + self.wid) * self.h;   # function to find area
